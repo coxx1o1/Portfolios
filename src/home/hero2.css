@@ -8,9 +8,11 @@ h2{
         h2 span {
         position: relative;
         display: inline-block;
-        color: red;
+        color: rgb(43, 3, 117);
         overflow: hidden;
         height: 1.25em;
+        width: 20ch;
+        white-space: nowrap;
         }
 
         h2 span span {
@@ -22,7 +24,7 @@ h2{
         0% { transform: translateY(0%); }
         20% { transform: translateY(-100%); }
         40% { transform: translateY(-200%); }
-        60% { tansform: translateY(-300%); }
+        60% { transform: translateY(-300%); }
         80% { transform: translateY(-400%); }
         100% { transform: translateY(0%); }
         }

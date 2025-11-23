@@ -25,7 +25,7 @@ export default function Navbar() {
             <NavLink to="/hero" className={({ isActive }) => `${isActive ? 'bg-white/10 text-yellow-300' : 'text-white'} block px-4 py-3`} onClick={() => setOpen(false)}>Hero</NavLink>
           </li>
           <li>
-            <NavLink to="/test" className={({ isActive }) => `${isActive ? 'bg-white/10 text-yellow-300' : 'text-white'} block px-4 py-3`} onClick={() => setOpen(false)}>Test</NavLink>
+            <NavLink to="/hero2" className={({ isActive }) => `${isActive ? 'bg-white/10 text-yellow-300' : 'text-white'} block px-4 py-3`} onClick={() => setOpen(false)}>hero2</NavLink>
           </li>
         </ul>
       )}
