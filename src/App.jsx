@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import HeroSection from './home.jsx/hero1.jsx'
-import Test from './home.jsx/test.jsx'
+import HeroSection from './home/hero1.jsx'
+import Test from './home/test.jsx'
 
 function App() {
   return (
