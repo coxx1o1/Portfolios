@@ -12,6 +12,7 @@ function App() {
           <Route path="/" element={<HeroSection />} />
           <Route path="/hero" element={<HeroSection />} />
           <Route path="/hero2" element={<Hero2 />} />
+          <Route path="/hero3" element={<Hero3 />} />
         </Routes>
       </main>
     </div>
